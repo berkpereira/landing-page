@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', 'Arial', 'Helvetica', 'sans-serif';
-    color: white;    
+    
 }
 
 .top,
@@ -81,5 +81,61 @@ body {
     color: #1F2937;
 }
 
+.random-information {
+    display: flex;
+}
 
+.random-information .filler {
+    flex: 1;
+}
 
+.random-information .content {
+    flex: 4;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.random-information .header-container {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 40px 0 40px;
+}
+
+.random-information .squares {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.random-information .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-information .square {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square .text {
+    text-align: center;
+}
+
+.squares .subtext {
+    text-align: center;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+}
