@@ -182,7 +182,39 @@ body {
     font-weight: bolder;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
 
+.call-to-action .call-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px 40px;
+    border-radius: 20px;
+}
+
+.call-to-action .inner-container {
+    display: flex;
+}
+
+.call-to-action .text {
+
+}
+
+
+.call-to-action .sign-up {
+    background-color: #3882F6;
+    padding: 4px 0px 4px;
+    border-radius: 8px;
+    border: white solid;
+    border-width: 2px;
+    width: 100px;
+}
 
 .footer {
     color: red;
