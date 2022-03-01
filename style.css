@@ -85,11 +85,11 @@ body {
     display: flex;
 }
 
-.random-information .filler {
+.random-information > .filler {
     flex: 1;
 }
 
-.random-information .content {
+.random-information > .content {
     flex: 4;
     width: 1300px;
     display: flex;
@@ -107,25 +107,35 @@ body {
 
 .random-information .squares {
     display: flex;
-    justify-content: center;
     
 }
 
 .random-information .container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+.squares .container {
+    flex: 1;
+    display: flex;
+}
+
+.squares .square-content {
+    flex: 2;
 }
 
 .random-information .square {
     width: 150px;
     height: 150px;
     border: solid #3882F6;
-    border-radius: 10px;
+    border-radius: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.squares .filler {
+    flex: 1;
 }
 
 .square .text {
@@ -138,4 +148,9 @@ body {
 
 .inspiring-quote {
     background-color: #E5E7EB;
+}
+
+
+.footer {
+    color: red;
 }
