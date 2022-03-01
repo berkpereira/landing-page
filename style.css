@@ -11,7 +11,6 @@ body {
 }
 
 .top {
-    background-color: ;
     display: flex;
 }
 
@@ -74,6 +73,8 @@ body {
 
 .hero .image {
     flex: 10;
+    height: 200px;
+    min-width: 260px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,7 +108,7 @@ body {
 
 .random-information .squares {
     display: flex;
-    
+    margin-bottom: 60px;
 }
 
 .random-information .container {
@@ -122,9 +123,11 @@ body {
 
 .squares .square-content {
     flex: 2;
+    color: #8d95a0;
 }
 
 .random-information .square {
+    box-sizing: border-box;
     width: 150px;
     height: 150px;
     border: solid #3882F6;
@@ -132,10 +135,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 .squares .filler {
     flex: 1;
+    min-width: 12px;
 }
 
 .square .text {
@@ -144,11 +149,39 @@ body {
 
 .squares .subtext {
     text-align: center;
+    margin-top: 4px;
 }
 
 .inspiring-quote {
     background-color: #E5E7EB;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 200px 0;
+    min-height: 400px;
 }
+
+.inspiring-quote > .quote-container {
+    margin: 100px 0 100px;
+    min-width: 550px;
+}
+
+.inspiring-quote .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.inspiring-quote .author {
+    text-align: right;
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 
 
 .footer {
