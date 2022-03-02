@@ -1,0 +1,1 @@
+This project intends to serve as practice of HTML and CSS predominantly. It comes at a time at which I haven't properly dived into JavaScript, which I intend to take into future projects after learning about how to implement it in web pages.
