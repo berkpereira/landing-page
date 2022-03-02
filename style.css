@@ -5,6 +5,11 @@ body {
     
 }
 
+button {
+    min-width: 100px;
+    max-height: 41px;
+}
+
 .top,
 .footer {
     background-color: #1F2937;
@@ -180,6 +185,7 @@ body {
     color: #1F2937;
     font-size: 20px;
     font-weight: bolder;
+    margin-top: 16px;
 }
 
 .call-to-action {
@@ -196,6 +202,7 @@ body {
     align-items: center;
     padding: 40px 80px 40px;
     border-radius: 20px;
+    min-width: 700px;
 }
 
 .call-to-action .inner-container {
@@ -203,9 +210,18 @@ body {
 }
 
 .call-to-action .text {
-
+    color: white;
+    margin-right: 30px;
 }
 
+.call-to-action .text .call {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.call-to-action .text .sub {
+    font-weight: lighter;
+}
 
 .call-to-action .sign-up {
     background-color: #3882F6;
@@ -213,7 +229,7 @@ body {
     border-radius: 8px;
     border: white solid;
     border-width: 2px;
-    width: 100px;
+    min-width: 100px;
 }
 
 .footer {
