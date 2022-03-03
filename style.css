@@ -31,6 +31,7 @@ button {
 }
 
 .header {
+    margin-top: 20px;
     display: flex;
 }
 
@@ -71,9 +72,13 @@ button {
 
 .hero .sign-up {
     background-color: #3882F6;
+    border: #3882F6 solid;
+    color: white;
+    font-weight: bolder;
     padding: 4px 0px 4px;
     border-radius: 8px;
     width: 100px;
+    height: 41px;
 }
 
 .hero .image {
@@ -81,6 +86,7 @@ button {
     height: 200px;
     min-width: 260px;
     display: flex;
+
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
@@ -198,20 +204,26 @@ button {
 .call-to-action .call-container {
     background-color: #3882F6;
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    padding: 40px 80px 40px;
+    padding: 40px 160px 40px;
+    box-sizing: border-box;
     border-radius: 20px;
-    min-width: 700px;
+    min-width: 550px;
+    max-width: 1000px;
 }
 
 .call-to-action .inner-container {
     display: flex;
+    flex: 1;
+    min-width: 530px;
 }
 
 .call-to-action .text {
     color: white;
     margin-right: 30px;
+    margin-right: auto;
 }
 
 .call-to-action .text .call {
@@ -224,12 +236,16 @@ button {
 }
 
 .call-to-action .sign-up {
+    flex: 0;
     background-color: #3882F6;
     padding: 4px 0px 4px;
     border-radius: 8px;
+    color: white;
+    font-weight: bolder;
     border: white solid;
     border-width: 2px;
-    min-width: 100px;
+    width: 100px;
+    height: 41px;
 }
 
 .footer {
